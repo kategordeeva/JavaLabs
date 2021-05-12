@@ -7,7 +7,7 @@ public class Primes {
         }
     }
 
- // ѕроверка на то что число ¤вл¤етс¤ простым
+ // проверка на то, что число является простым
     public static boolean isPrime(int n) {
         for (int i = 2; i < n; i++) {
             if (n%i == 0) {
