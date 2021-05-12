@@ -6,7 +6,7 @@ public class Palindrome {
         }
     }
 
-    // Âîçâðàùàåò ñòðîêó â îáðàòíîì ïîðÿäêå
+    // Ð’Ð¾Ð·Ð²Ñ€Ð°Ñ‰Ð°ÐµÑ‚ ÑÑ‚Ñ€Ð¾ÐºÑƒ Ð² Ð¾Ð±Ñ€Ð°Ñ‚Ð½Ð¾Ð¼ Ð¿Ð¾Ñ€ÑÐ´ÐºÐµ
     public static String reverseString(String s) {
         String res = "";
         for (int i = s.length()-1; i >= 0; i--) {
@@ -15,7 +15,7 @@ public class Palindrome {
         return res;
     }
 
- // Ïðîâåðÿåò ÿâëÿåòñÿ ëè s ïàëèíäðîìîì
+ // ÐŸÑ€Ð¾Ð²ÐµÑ€ÑÐµÑ‚ ÑÐ²Ð»ÑÐµÑ‚ÑÑ Ð»Ð¸ s Ð¿Ð°Ð»Ð¸Ð½Ð´Ñ€Ð¾Ð¼Ð¾Ð¼
     public static boolean isPalindrome(String s) {
         String res = "";
         for (int i = s.length()-1; i >= 0; i--) {
